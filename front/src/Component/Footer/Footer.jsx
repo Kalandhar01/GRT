@@ -4,12 +4,12 @@ import './Footer.css'
 const Footer = () => {
   return (
     <>
-    
-    <div className="container1">
+     
+   <div className="container1">
       
       <div className="footer1 " >
       
-        <div className="foot1">
+        <div className="foot1 col11 cl">
         <ul>
                 <li>
                     <span class="policy-icon"><img alt="" src="https://media.grtjewels.com/cms_content_images/BIS-Hallmark-Black_.png"/>
@@ -30,31 +30,16 @@ const Footer = () => {
 
 
         </div>
-        
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+       
 
 
 
       </div>
 
 
-      <div className="footer1">
+      <div className="footerr1">
       
-        <div className="foot1 col2 flink">
+        <div className="foot1 col2 flink cl">
         <ul>
                 <li>
                     <a href="https://www.grtjewels.com/about-grt/our-story">About US</a>
@@ -79,9 +64,9 @@ const Footer = () => {
 
 
 
-      <div className="footer1">
+      <div className="footerr1">
       
-      <div className="foot1 col3 flink">
+      <div className="foot1 col3 flink cl">
       <ul>
               <li>
                   <a href="https://www.grtjewels.com/about-grt/our-story">Enquiry Form</a>
@@ -104,9 +89,9 @@ const Footer = () => {
       </div>
     </div> 
 
-    <div className="footer1">
+    <div className="footerr1">
       
-      <div className="foot1 col4 flink">
+      <div className="foot1 col4 flink cl">
           <p className='fp'>Download Our free App</p>
           <ul>
         <li>
@@ -124,7 +109,7 @@ const Footer = () => {
 
 
 
-    <div className="footer1 col5 ">
+    <div className="footerr1 col5  cl">
       
       <div className="foot1 col5 flink">
           <p className='fp'>Subscribe & be the first to Shine with our Sparkling Offers!</p>
@@ -137,8 +122,62 @@ const Footer = () => {
 
 
 
-
     </div>
+    
+
+
+    <div className="last">
+  <div className='lcon'>
+    <ul>
+      <li>
+        <img src="https://media.grtjewels.com/cms_content_images/visa.png" alt="" />
+      </li>
+      <li>
+        <img src="https://media.grtjewels.com/cms_content_images/mastercard.png" alt="" />
+      </li>
+      <li>
+        <img src="https://media.grtjewels.com/cms_content_images/upi-icon-2.png" alt="" />
+      </li>
+    </ul>
+  </div>
+  
+  <div className="lp">
+    <p>© 2024 GRT Jewellers Private Limited. All rights reserved.</p>
+  </div>
+
+  <div className='lcon lncon'>
+    <ul>
+      <li>
+        <a href="https://www.facebook.com/grtjewels/">
+        <img src="https://media.grtjewels.com/cms_content_images/SC-01.png" alt="" /></a>
+      </li>
+      <li><a href="https://twitter.com/GRTJewellers">
+        <img src="https://media.grtjewels.com/cms_content_images/SC-02.png" alt="" /></a>
+      </li>
+      <li>
+        <a href="https://www.youtube.com/user/GRTJEWELLERS">
+        <img src="https://media.grtjewels.com/cms_content_images/SC-03.png" alt="" /></a>
+      </li>
+      <li><a href="https://www.instagram.com/grtjewellers/">
+        <img src="https://media.grtjewels.com/cms_content_images/SC-04.png" alt="" /></a>
+      </li>
+      <li><a href="https://api.whatsapp.com/send?phone=917824001515&text=Send%20Subscribe%20to%20start">
+        <img src="https://media.grtjewels.com/cms_content_images/SC-07.png" alt="" /></a>
+      </li>
+      <li><a href="https://in.pinterest.com/grtjewels/">
+        <img src="https://media.grtjewels.com/cms_content_images/SC-05.png" alt="" /></a>
+      </li>
+      <li><a href="https://in.linkedin.com/company/grt-jewellers-india-private-limited">
+        <img src="https://media.grtjewels.com/cms_content_images/SC-06.png" alt="" /></a>
+      </li>
+    </ul>
+  </div>
+</div>
+
+
+
+
+
 
 
       

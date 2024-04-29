@@ -7,8 +7,9 @@
     margin-top: 10%;
     width: 100%;
     background-color: rgb(255, 255, 255);
-    height: 600px;
+    height: 250px;
     display: flex;
+
 
 }
 
@@ -21,9 +22,14 @@
 
 
 .footer1{
-    margin-right: 8%;
-   
+    width: 270px;
 }
+
+.footerr1{
+    margin-left: 70px;
+}
+
+
 
 .col2{
     padding-top: 10px;
@@ -33,13 +39,27 @@
 
 }
 
+.cl{
+    margin-right: 10%;
+}
+
+.footer1 ul li {
+    display: inline-block;
+    margin-right: 10px; /* Adjust spacing between list items */
+  }
 
 
+  .col11 ul{
+    margin-top: 10px;
+    margin-left: 10px;
+  }
 
-
+.col11 ul li p{
+    font-size: 15px;
+}
 
 .foot1 ul {
-    
+   
     list-style: none;
     display: inline-block;
     flex-direction: column;
@@ -54,12 +74,13 @@
     display: flex;
     align-items: center;
     padding-bottom: 5px;
+    width:100%;
 }
 
 .policy-icon img {
-    width: 30px; /* Adjust this value to change the size of the images */
-    height: auto; /* Maintain aspect ratio */
-    margin-right: 10px; /* Add some spacing between the image and the text */
+    width: 30px;
+    height: auto; 
+    margin-right: 10px; 
 }
 
 .flink ul li{
@@ -118,7 +139,78 @@ input[type="text"] {
   /* Focus effect */
   input[type="text"]:focus {
     outline: none; /* Remove default focus outline */
-    border-color: dodgerblue; /* Change border color when focused */
+    border-color: rgb(244, 28, 28); /* Change border color when focused */
     box-shadow: 0 0 5px rgba(0, 0, 255, 0.3); /* Add a subtle box shadow when focused */
   }
   
+
+  .last {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  .lcon {
+    width: 33.33%;
+    height: 70px;
+    background: #FDF9F9;
+    margin: 0;
+  }
+  
+  .last .lcon ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    /* Center icons horizontally */
+  }
+  
+  .last .lcon ul li {
+    display: inline-block;
+    padding-top: 10px;
+  }
+  
+  .last .lcon ul li img {
+    width: 50px;
+    height: auto;
+    padding-right: 5px;
+    padding-left: 5px;
+    /* margin: 10px; Adjust spacing around icons */
+  }
+  
+  .lp {
+    background-color: #FDF9F9;
+    width: 33.33%;
+    padding-top: 20px;
+    text-align: center; /* Center align text */
+    display: flex;
+    align-items: center; 
+    font-size: 13px;
+    font-family: 'poppins',sans-serif;
+    
+}
+  
+
+  .last .lncon ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+   margin-left: 20%;
+   
+    justify-content: center;
+    /* Center icons horizontally */
+  }
+
+  .last .lncon ul li img {
+    width: 35px;
+    height: auto;
+    
+    padding-right: 5px;
+    padding-top: 10px;
+    
+  }
+
+/* Existing CSS styles */
+
+

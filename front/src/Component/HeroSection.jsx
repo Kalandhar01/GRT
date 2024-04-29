@@ -109,11 +109,11 @@ Benefits of New Golden Eleven Plan
         <h3 className='bptext'>Get More Benefits</h3>
     </div>
     <div class="bp_container-2">
-        <img className='fimg' src="https://www.grtjewels.com/static/version1711469798/frontend/Custom/oriana/en_US/Custom_Jss/images/more_benifits.png" alt="" />
+        <img className='fimg' src="https://www.grtjewels.com/static/version1711469798/frontend/Custom/oriana/en_US/Custom_Jss/images/no_making.png" alt="" />
         <h3 className='bptext' >No Making Charges *</h3>
     </div>
     <div class="bp_container-3">
-        <img className='fimg' src="https://www.grtjewels.com/static/version1711469798/frontend/Custom/oriana/en_US/Custom_Jss/images/more_benifits.png" alt="" />
+        <img className='fimg' src="https://www.grtjewels.com/static/version1711469798/frontend/Custom/oriana/en_US/Custom_Jss/images/no_wastage.png" alt="" />
         <h3 className='bptext' >No Wastage(VA) *</h3>
     </div>
 </div>

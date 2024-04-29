@@ -222,7 +222,7 @@ select, .jss-mfe-home-modal select {
     padding: 10px 0;
     float: left;
     width: 100%;
-    height: max-content;
+    height: 250px;
     margin-top: 2%;
 }
 
@@ -234,10 +234,12 @@ select, .jss-mfe-home-modal select {
     color: #FFFFFF;
     font-weight: 400;
     font-size: 32px;
+    margin-top: 2%
 }
 
 .beniftsplancontainer,
 .bp_main {
+    margin-top:40px ;
     display: flex;
     align-items: center;
     justify-content: center;
